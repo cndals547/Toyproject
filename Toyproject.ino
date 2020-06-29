@@ -98,6 +98,8 @@ void setup()
   Serial.begin(9600);
   myservo.attach(servo_sensor);
   pinMode(LED_R, OUTPUT);
+  pinMode(LED_G, OUTPUT);
+  pinMode(LED_B, OUTPUT);
   pinMode(trig, OUTPUT);
   pinMode(echo, INPUT);
   pinMode(button, INPUT);
