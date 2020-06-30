@@ -1,13 +1,17 @@
 #include<Servo.h>
 
-int LED_R = 8;
-int LED_B = 10;
-int LED_G = 11;
-int button = 7;
-int tmp_sensor = A0;
-int servo_sensor = 9;
+//Pin number setting
 int trig = 2;
 int echo = 3;
+int button = 7;
+int LED_R = 8;
+int servo_sensor = 9;
+int LED_B = 10;
+int LED_G = 11;
+//Analog
+int tmp_sensor = A0;
+
+//Global variable
 int a = 1;
 int angle_minimum = 1;
 int angle_maximum = 179;
